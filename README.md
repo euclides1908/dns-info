@@ -15,3 +15,4 @@ O script pode ser executado diretamente do terminal:
 ```sh
 $ ./dominio.rb
 ```
+![Image of xemple](https://i.ibb.co/FB10kmq/tutorial.png)
