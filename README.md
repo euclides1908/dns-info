@@ -4,9 +4,9 @@ Script feito em Ruby para pesquisa dos dados do domínio - ip, nome da máquina,
 # Requisitos
 
 - Ruby, whois e dig - podem ser obtido no gerenciador de pacotes da sua distribuição (apt, dnf, yum)
-- Gem colorized - pode ser obtido no gereciador de pacotes do ruby:
+- Gem colorize - pode ser obtido no gereciador de pacotes do ruby:
 ```sh
-$ gem install colorized
+$ gem install colorize
 ```
 
 # Execução
