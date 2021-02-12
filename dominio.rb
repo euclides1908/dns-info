@@ -38,7 +38,7 @@ if dominio['.br']
 
 else
   saida = whois.lines.grep /Registrant Name|Registrant Email|Admin Name|Admin Email|Tech Name|Tech Email|Expiry Date|Expiration|Reseller/
-  puts saida.encode('utf-8')
+  puts saida.to_s.encode('utf-8')
   puts("\nDNSs:")
   puts whois.lines.grep /Name Server/
 end
